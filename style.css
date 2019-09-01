@@ -13,7 +13,6 @@ button
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
     vertical-align: middle;
-    
     color:black;
 }
 
@@ -24,10 +23,11 @@ button.RideCymbal
     margin-left: -50px;
     margin-right: -3%;
     text-align: center;
-    width:150px;
-    height: 60px;
+    width:170px;
+    height: 45px;
     border-radius: 50%;
     background-color: #E8CF56;
+    transform: rotate(7deg);
 
 }
 
@@ -38,7 +38,7 @@ button.FloorTom
     text-align: center;
     width:110px;
     height: 180px;
-    background-color:#4FA7BF;
+    background-color:#2172CC;
     
     
 
@@ -51,7 +51,7 @@ button.MidTom
     text-align: center;
     width:110px;
     height: 95px;
-    background-color:#4FA7BF;
+    background-color:#2172CC;
 
 }
 
@@ -76,7 +76,7 @@ button.HighTom
     text-align: center;
     width:110px;
     height: 95px;
-    background-color:#4FA7BF;
+    background-color:#2172CC;
 
 }
 
@@ -88,63 +88,200 @@ button.SnareDrum
     height: 70px;
     width:110px;
     height: 50px;
-    background-color:#4FA7BF;
+    background-color:#2172CC;
 
 }
 button.CrashCymbal
 {
     
     margin-top: -400px;
-    margin-left: -50px;
+    margin-left: -68px;
     text-align: center;
-    width:100px;
-    height: 50px;
+    width:150px;
+    height: 40px;
     background-color: #E8CF56;
     border-radius: 50%;
+    transform: rotate(-5deg);
 
 }
 
 button.HiHat
 {
     
-    margin-top: -200px;
+    margin-top: -190px;
     margin-left: -60px;
     text-align: center;
     width:100px;
-    height: 50px;
+    height: 30px;
     background-color: #E8CF56;
     border-radius: 50%;
+    transform: rotate(-8deg);
 }
 
 
 
 
-.vl 
+/*lineas*/
+.vl /*R*/
 {
     border-left: 6px solid #8c8c8c;
     height: 345px;
     position: absolute;
     left: 30%;
-    margin-left: 50px;
-    top: 238px;
+    margin-left: 30px;
+    top: 230px;
 }
 
-.vl2 
+.vl2 /*J*/
 {
     border-left: 6px solid #8C8C8C;
     height: 280px;
     position: absolute;
     left: 60%;
-    margin-left: 80px;
-    top: 302px;
+    margin-left: 95px;
+    top: 298px;
 }
 
-.vl3 
+.vl3 /*U*/
 {
     border-left: 6px solid #8C8C8C;
     height: 380px;
     position: absolute;
     left: 60%;
     margin-left: 25px;
-    top: 202px;
+    top: 198px;
+}
+
+
+
+
+/*mini lineas*/
+
+/*U*/
+.vl4
+{
+    border-left: 6px solid #8C8C8C;
+    height: 100px;
+    position: absolute;
+    left: 60%;
+    margin-left: 6px;
+    top: 500px;
+    transform: rotate(20deg);
+}
+
+.vl5
+{
+    border-left: 6px solid #8C8C8C;
+    height: 100px;
+    position: absolute;
+    left: 60%;
+    margin-left: 43px;
+    top: 500px;
+    transform: rotate(160deg);
+}
+
+/*R*/
+.vl6
+{
+    border-left: 6px solid #8C8C8C;
+    height: 100px;
+    position: absolute;
+    left: 30%;
+    margin-left: 13px;
+    top: 500px;
+    transform: rotate(20deg);
+}
+
+.vl7
+{
+    border-left: 6px solid #8C8C8C;
+    height: 100px;
+    position: absolute;
+    left: 30%;
+    margin-left: 48px;
+    top: 500px;
+    transform: rotate(160deg);
+}
+
+/*J*/
+.vl8
+{
+    border-left: 6px solid #8C8C8C;
+    height: 100px;
+    position: absolute;
+    left: 60%;
+    margin-left: 78px;
+    top: 500px;
+    transform: rotate(20deg);
+}
+
+.vl9
+{
+    border-left: 6px solid #8C8C8C;
+    height: 100px;
+    position: absolute;
+    left: 60%;
+    margin-left: 113px;
+    top: 500px;
+    transform: rotate(160deg);
+}
+
+
+
+/*Bass lineas*/
+.vl10
+{
+    border-left: 6px solid #8C8C8C;
+    height: 40px;
+    position: absolute;
+    left: 40%;
+    margin-left: 45px;
+    top: 545px;
+    transform: rotate(20deg);
+}
+
+.vl11
+{
+    border-left: 6px solid #8C8C8C;
+    height: 40px;
+    position: absolute;
+    left: 50%;
+    margin-left: 53px;
+    top: 545px;
+    transform: rotate(160deg);
+}
+
+
+
+/*SnareDrum Lineas*/
+.vl12 
+{
+    border-left: 6px solid #8C8C8C;
+    height: 155px;
+    position: absolute;
+    left: 55%;
+    margin-left: 43px;
+    top: 423px;
+}
+/*Mini Lineas*/
+.vl13
+{
+    border-left: 6px solid #8C8C8C;
+    height: 100px;
+    position: absolute;
+    left: 50%;
+    margin-left: 102px;
+    top: 500px;
+    transform: rotate(20deg);
+}
+
+.vl14
+{
+    border-left: 6px solid #8C8C8C;
+    height: 100px;
+    position: absolute;
+    left: 50%;
+    margin-left: 137px;
+    top: 500px;
+    transform: rotate(160deg);
 }
