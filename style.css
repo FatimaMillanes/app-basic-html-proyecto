@@ -21,6 +21,7 @@ button.RideCymbal
 {
     
     margin-top: -340px;
+    margin-left: -50px;
     margin-right: -3%;
     text-align: center;
     width:150px;
@@ -94,7 +95,7 @@ button.CrashCymbal
 {
     
     margin-top: -400px;
-    
+    margin-left: -50px;
     text-align: center;
     width:100px;
     height: 50px;
@@ -102,14 +103,48 @@ button.CrashCymbal
     border-radius: 50%;
 
 }
+
 button.HiHat
 {
     
     margin-top: -200px;
-    margin-left: -100px;
+    margin-left: -60px;
     text-align: center;
     width:100px;
     height: 50px;
     background-color: #E8CF56;
     border-radius: 50%;
+}
+
+
+
+
+.vl 
+{
+    border-left: 6px solid grey;
+    height: 345px;
+    position: absolute;
+    left: 30%;
+    margin-left: 50px;
+    top: 238px;
+}
+
+.vl2 
+{
+    border-left: 6px solid grey;
+    height: 280px;
+    position: absolute;
+    left: 60%;
+    margin-left: 80px;
+    top: 302px;
+}
+
+.vl3 
+{
+    border-left: 6px solid grey;
+    height: 380px;
+    position: absolute;
+    left: 60%;
+    margin-left: 25px;
+    top: 202px;
 }
