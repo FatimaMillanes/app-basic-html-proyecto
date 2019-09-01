@@ -121,7 +121,7 @@ button.HiHat
 
 .vl 
 {
-    border-left: 6px solid grey;
+    border-left: 6px solid #8c8c8c;
     height: 345px;
     position: absolute;
     left: 30%;
@@ -131,7 +131,7 @@ button.HiHat
 
 .vl2 
 {
-    border-left: 6px solid grey;
+    border-left: 6px solid #8C8C8C;
     height: 280px;
     position: absolute;
     left: 60%;
@@ -141,7 +141,7 @@ button.HiHat
 
 .vl3 
 {
-    border-left: 6px solid grey;
+    border-left: 6px solid #8C8C8C;
     height: 380px;
     position: absolute;
     left: 60%;
