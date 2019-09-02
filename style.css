@@ -1,6 +1,6 @@
 body
 {
-        background-color:#C45B7E; 
+        background-color: #5E6B66; 
         text-align: center;
         line-height: 100vh;
         margin:0;
@@ -26,7 +26,7 @@ button.RideCymbal
     width:170px;
     height: 45px;
     border-radius: 50%;
-    background-color: #E8CF56;
+    background-color: #F1E056;
     transform: rotate(7deg);
 
 }
@@ -38,7 +38,7 @@ button.FloorTom
     text-align: center;
     width:110px;
     height: 180px;
-    background-color:#2172CC;
+    background-color: #7B1E05;
     
     
 
@@ -51,13 +51,13 @@ button.MidTom
     text-align: center;
     width:110px;
     height: 95px;
-    background-color:#2172CC;
+    background-color:#7B1E05;
 
 }
 
 button.BassDrum
 {
-    background-color:#C9C9C9;
+    background-color: #040100;
     margin-top: 200px;
     margin-left: -80px;
     text-align: center;
@@ -76,7 +76,7 @@ button.HighTom
     text-align: center;
     width:110px;
     height: 95px;
-    background-color:#2172CC;
+    background-color:#7B1E05;
 
 }
 
@@ -88,7 +88,7 @@ button.SnareDrum
     height: 70px;
     width:110px;
     height: 50px;
-    background-color:#2172CC;
+    background-color:#7B1E05;
 
 }
 button.CrashCymbal
@@ -99,7 +99,7 @@ button.CrashCymbal
     text-align: center;
     width:150px;
     height: 40px;
-    background-color: #E8CF56;
+    background-color: #F1E056;
     border-radius: 50%;
     transform: rotate(-5deg);
 
@@ -113,7 +113,7 @@ button.HiHat
     text-align: center;
     width:100px;
     height: 30px;
-    background-color: #E8CF56;
+    background-color: #F1E056;
     border-radius: 50%;
     transform: rotate(-8deg);
 }
