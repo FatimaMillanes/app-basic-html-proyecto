@@ -8,11 +8,7 @@
     height: 100%;
 }
 
-#Drum{
-    position: absolute;
-    margin-top: -340px;
-    margin-left: -50px;
-}
+
 
 
 body
@@ -139,6 +135,7 @@ button.HiHat
 
 
 /*lineas*/
+
 .vl /*R*/
 {
     border-left: 6px solid #8c8c8c;
@@ -220,6 +217,7 @@ button.HiHat
     transform: rotate(160deg);
 }
 
+
 /*J*/
 .vl8
 {
@@ -231,6 +229,7 @@ button.HiHat
     top: 500px;
     transform: rotate(20deg);
 }
+
 
 .vl9
 {
@@ -271,6 +270,7 @@ button.HiHat
 
 
 /*SnareDrum Lineas*/
+
 .vl12 
 {
     border-left: 6px solid #8C8C8C;
@@ -280,6 +280,7 @@ button.HiHat
     margin-left: 43px;
     top: 423px;
 }
+
 /*Mini Lineas*/
 .vl13
 {
@@ -291,6 +292,7 @@ button.HiHat
     top: 500px;
     transform: rotate(20deg);
 }
+
 
 .vl14
 {
