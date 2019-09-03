@@ -8,6 +8,11 @@
     height: 100%;
 }
 
+#Drum{
+    position: absolute;
+    margin-top: -340px;
+    margin-left: -50px;
+}
 
 
 body
