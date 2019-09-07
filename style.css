@@ -9,7 +9,17 @@
 }
 
 
+.imagebutton { 
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	background: transparent url("../imagenes/platos1.png") no-repeat 0 0;
+	
+}
 
+.imagebutton:hover {
+	background-position: -50px;
+}
 
 body
 {
