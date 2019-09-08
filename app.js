@@ -9,6 +9,7 @@ const playnote = event => {
     const audio = document.getElementById(audioId);
     console.log(audio);
 
+    
     audio.pause();
     audio.currentTime = 0;
     audio.play();

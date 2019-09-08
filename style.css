@@ -135,7 +135,9 @@ button.HiHat
 	height: auto;
 	background: transparent url("../imagenes/platos1.png") no-repeat 0 0;
 	
+
 }
+
 .imagebutton:hover {
 	background-position: auto;
 }
@@ -155,6 +157,7 @@ button.HiHat
     height: 50%;
 	
 }
+
 
 
 .img{
@@ -196,3 +199,5 @@ button.HiHat
     left:0px;
    
 }
+
+
