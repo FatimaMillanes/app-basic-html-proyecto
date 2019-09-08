@@ -2,202 +2,501 @@
 
 
 body
+
 {
-        background-color: #FFFFFF; 
+
+        
+
         text-align: center;
+
         line-height: 100vh;
+
         margin:0;
 
+
+
 }
+
+
+
 
 
 button
+
 {
-    
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+   
+
+    font-family: cursive;
+
     font-weight: bold;
+
     vertical-align: middle;
+
     color:black;
+
+    z-index: 1010px;
+
+    border: transparent;
+
+    background-color: transparent;
+
+    
+
+    
+
 }
 
 
-button.RideCymbal
+
+
+
+/*button.RideCymbal
+
 {
+
     
+
     margin-top: -340px;
+
     margin-left: -50px;
+
     margin-right: -3%;
+
     text-align: center;
+
     width:170px;
+
     height: 45px;
+
     border-radius: 50%;
-    background-color: #F1E056;
+
     transform: rotate(7deg);
 
+
+
 }
+
+*/
+
 
 
 button.FloorTom
+
 {
-    margin-right: -3%;
-    margin-top: 180px;
+
+    margin-right: -50px;
+
+    margin-top: 10px;
+
     text-align: center;
+
     width:110px;
-    height: 180px;
-    background-color: #7B1E05;
-    
-    
+
+    height: 80px;
+
+    margin-left: 8px;
+
+
 
 }
+
+
+
+
 
 button.MidTom
+
 {
+
     
-    margin-top: -120px;
+
+    margin-top: -100px;
+
     text-align: center;
-    width:110px;
-    height: 95px;
-    background-color:#7B1E05;
+
+    width:80px;
+
+    height: 80px;
+
+    
+
+    margin-right: -40px;
+
+    margin-left: 10px;
 
 }
+
+
+
 
 
 button.BassDrum
+
 {
-    background-color: #040100;
-    margin-top: 200px;
-    margin-left: -80px;
+
+    
+
+    margin-top: 205px;
+
+    margin-left: -45px;
+
     text-align: center;
-    width:200px;
-    height: 200px;
+
+    width:180px;
+
+    height: 198px;
+
     border-radius: 50%;
+
     color:white;
-   
+
+    
+
+
 
 }
+
+
+
+
 
 button.HighTom
+
 {
+
     
-    margin-top: -120px;
-    margin-left: -80px;
+
+    margin-top: -100px;
+
+    margin-left: -85px;
+
     text-align: center;
-    width:110px;
-    height: 95px;
-    background-color:#7B1E05;
+
+    width:75px;
+
+    height: 65px;
+
+    
 
 }
+
+
+
+
 
 button.SnareDrum
+
 {
-    margin-top: 40px;
-    margin-left: -50px;
+
+    margin-top: -40px;
+
+    margin-left: -65px;
+
     width:70px;
+
     height: 70px;
+
     width:110px;
-    height: 50px;
-    background-color:#7B1E05;
+
+    height: 45px;
+
+    
 
 }
-button.CrashCymbal
+
+
+
+
+
+/*button.CrashCymbal
+
 {
+
     
+
     margin-top: -400px;
+
     margin-left: -68px;
+
     text-align: center;
+
     width:150px;
+
     height: 40px;
-    background-color: #F1E056;
+
     border-radius: 50%;
+
     transform: rotate(-5deg);
 
+
+
 }
 
+
+
 button.HiHat
+
 {
+
     
+
     margin-top: -190px;
+
     margin-left: -60px;
+
     text-align: center;
+
     width:100px;
+
     height: 30px;
-    background-color: #F1E056;
+
     border-radius: 50%;
+
     transform: rotate(-8deg);
-}
+
+}*/
+
+
+
+
+
 
 
 
 
 /* .imagebutton { 
+
 	display: inline-block;
+
 	width: auto;
+
 	height: auto;
+
 	background: transparent url("../imagenes/platos1.png") no-repeat 0 0;
+
 	
 
+
+
 }
 
+
+
 .imagebutton:hover {
+
 	background-position: auto;
+
 }
+
 */
 
 
 
-#bateria{
+
+
+
+
+#bateria
+
+{
+
     vertical-align: middle;
+
     margin-top: 250px;
+
     position: absolute;
-    z-index: 900;
-    margin-left: -300px;
+
+    z-index: -900;
+
+    margin-left:-140px;
+
     width: 750px;
+
     height: 500px;
+
     width: 40%;
+
     height: 50%;
+
 	
+
 }
 
 
 
-.img{
+
+
+
+
+.img
+
+{
+
     vertical-align: middle;
+
     position: absolute;
+
     width: 130px;
+
     margin-top: 220px;
+
     left: 515px;
-    z-index: 1000;
+
+    z-index: 800;
+
    
+
 }
 
-.img1{
+
+
+
+
+.img1
+
+{
+
     vertical-align: middle;
+
     position: absolute;
+
     width: 155px;
+
     margin-top: 220px;
+
     left: 860px;
-    z-index: 1000;
+
+    z-index: 900;
+
    
+
 }
 
-.img2 {
+
+
+
+
+.img2 
+
+{
+
     vertical-align: middle;
+
     position: absolute;
+
     width: 155px;
+
     margin-top: 270px;
+
     left: 950px;
-    z-index: 1000;
+
+    z-index: 900;
+
    
+
 }
 
-#fondo {
+
+
+
+
+#fondo 
+
+{
+
     vertical-align: middle;
+
     position: absolute;
+
     height:100%;
+
     width: 100%;
+
     top: 0px;
+
     left:0px;
-   
+
+    z-index: -1000;
+
 }
 
 
+
+
+
+#p1
+
+{
+
+    font-family: cursive;
+
+    vertical-align: middle;
+
+    position: absolute;
+
+    z-index: 1000;
+
+    color: black;
+
+    height: 10px;
+
+    margin-top: -878px;
+
+    left: 37%;
+
+    font-weight: bold;
+
+    margin-left: 10px;
+
+}
+
+
+#p2
+
+{
+
+    font-family: cursive;
+
+    vertical-align: middle;
+
+    position: absolute;
+
+    z-index: 1000;
+
+    color: black;
+
+    height: 10px;
+
+    margin-top: -860px;
+
+    left: 61%;
+
+    font-weight: bold;
+
+}
+
+
+#p3
+
+{
+
+    font-family: cursive;
+
+    vertical-align: middle;
+
+    position: absolute;
+
+    z-index: 1000;
+
+    color: black;
+
+    height: 10px;
+
+    margin-top: -805px;
+
+    left: 67%;
+
+    font-weight: bold;
+
+}
