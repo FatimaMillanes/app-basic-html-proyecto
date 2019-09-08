@@ -121,167 +121,72 @@ button.HiHat
 
 
 
-/*lineas*/
-.vl /*R*/
-{
-    border-left: 6px solid #8c8c8c;
-    height: 345px;
-    position: absolute;
-    left: 30%;
-    margin-left: 30px;
-    top: 230px;
+/* .imagebutton { 
+	display: inline-block;
+	width: auto;
+	height: auto;
+	background: transparent url("../imagenes/platos1.png") no-repeat 0 0;
+	
 }
 
-.vl2 /*J*/
-{
-    border-left: 6px solid #8C8C8C;
-    height: 280px;
-    position: absolute;
-    left: 60%;
-    margin-left: 95px;
-    top: 298px;
+.imagebutton:hover {
+	background-position: auto;
 }
+*/
 
-.vl3 /*U*/
-{
-    border-left: 6px solid #8C8C8C;
-    height: 380px;
+
+
+#bateria{
+    vertical-align: middle;
+    margin-top: 250px;
     position: absolute;
-    left: 60%;
-    margin-left: 25px;
-    top: 198px;
+    z-index: 900;
+    margin-left: -300px;
+    width: 750px;
+    height: 500px;
+    width: 40%;
+    height: 50%;
+	
 }
 
 
-
-
-/*mini lineas*/
-
-/*U*/
-.vl4
-{
-    border-left: 6px solid #8C8C8C;
-    height: 100px;
+.img{
+    vertical-align: middle;
     position: absolute;
-    left: 60%;
-    margin-left: 6px;
-    top: 500px;
-    transform: rotate(20deg);
+    width: 130px;
+    margin-top: 220px;
+    left: 515px;
+    z-index: 1000;
+   
 }
 
-.vl5
-{
-    border-left: 6px solid #8C8C8C;
-    height: 100px;
+.img1{
+    vertical-align: middle;
     position: absolute;
-    left: 60%;
-    margin-left: 43px;
-    top: 500px;
-    transform: rotate(160deg);
+    width: 155px;
+    margin-top: 220px;
+    left: 860px;
+    z-index: 1000;
+   
 }
 
-/*R*/
-.vl6
-{
-    border-left: 6px solid #8C8C8C;
-    height: 100px;
+.img2 {
+    vertical-align: middle;
     position: absolute;
-    left: 30%;
-    margin-left: 13px;
-    top: 500px;
-    transform: rotate(20deg);
+    width: 155px;
+    margin-top: 270px;
+    left: 950px;
+    z-index: 1000;
+   
 }
 
-.vl7
-{
-    border-left: 6px solid #8C8C8C;
-    height: 100px;
+#fondo {
+    vertical-align: middle;
     position: absolute;
-    left: 30%;
-    margin-left: 48px;
-    top: 500px;
-    transform: rotate(160deg);
+    height:100%;
+    width: 100%;
+    top: 0px;
+    left:0px;
+   
 }
 
-/*J*/
-.vl8
-{
-    border-left: 6px solid #8C8C8C;
-    height: 100px;
-    position: absolute;
-    left: 60%;
-    margin-left: 78px;
-    top: 500px;
-    transform: rotate(20deg);
-}
-
-.vl9
-{
-    border-left: 6px solid #8C8C8C;
-    height: 100px;
-    position: absolute;
-    left: 60%;
-    margin-left: 113px;
-    top: 500px;
-    transform: rotate(160deg);
-}
-
-
-
-/*Bass lineas*/
-.vl10
-{
-    border-left: 6px solid #8C8C8C;
-    height: 40px;
-    position: absolute;
-    left: 40%;
-    margin-left: 45px;
-    top: 545px;
-    transform: rotate(20deg);
-}
-
-.vl11
-{
-    border-left: 6px solid #8C8C8C;
-    height: 40px;
-    position: absolute;
-    left: 50%;
-    margin-left: 53px;
-    top: 545px;
-    transform: rotate(160deg);
-}
-
-
-
-/*SnareDrum Lineas*/
-.vl12 
-{
-    border-left: 6px solid #8C8C8C;
-    height: 155px;
-    position: absolute;
-    left: 55%;
-    margin-left: 43px;
-    top: 423px;
-}
-/*Mini Lineas*/
-.vl13
-{
-    border-left: 6px solid #8C8C8C;
-    height: 100px;
-    position: absolute;
-    left: 50%;
-    margin-left: 102px;
-    top: 500px;
-    transform: rotate(20deg);
-}
-
-.vl14
-{
-    border-left: 6px solid #8C8C8C;
-    height: 100px;
-    position: absolute;
-    left: 50%;
-    margin-left: 137px;
-    top: 500px;
-    transform: rotate(160deg);
-}
