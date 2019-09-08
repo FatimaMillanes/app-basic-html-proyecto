@@ -3,7 +3,7 @@
 
 body
 {
-        background-color: #FFFFFF; 
+        
         text-align: center;
         line-height: 100vh;
         margin:0;
@@ -13,11 +13,15 @@ body
 
 button
 {
-    
+   
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
     vertical-align: middle;
     color:black;
+    z-index: 1010px;
+    border: transparent;
+    background-color: transparent;
+    
 }
 
 
@@ -31,7 +35,6 @@ button.RideCymbal
     width:170px;
     height: 45px;
     border-radius: 50%;
-    background-color: #F1E056;
     transform: rotate(7deg);
 
 }
@@ -39,12 +42,12 @@ button.RideCymbal
 
 button.FloorTom
 {
-    margin-right: -3%;
-    margin-top: 180px;
+    margin-right: -50px;
+    margin-top: 10px;
     text-align: center;
     width:110px;
-    height: 180px;
-    background-color: #7B1E05;
+    height: 80px;
+    margin-left: 70px;
     
     
 
@@ -53,51 +56,50 @@ button.FloorTom
 button.MidTom
 {
     
-    margin-top: -120px;
+    margin-top: -100px;
     text-align: center;
-    width:110px;
-    height: 95px;
-    background-color:#7B1E05;
-
+    width:80px;
+    height: 80px;
+    
+    margin-right: -40px;
+    margin-left: 10px;
 }
 
 
 button.BassDrum
 {
-    background-color: #040100;
-    margin-top: 200px;
-    margin-left: -80px;
+    
+    margin-top: 205px;
+    margin-left: -45px;
     text-align: center;
-    width:200px;
-    height: 200px;
+    width:180px;
+    height: 198px;
     border-radius: 50%;
     color:white;
-   
+    
 
 }
 
 button.HighTom
 {
     
-    margin-top: -120px;
-    margin-left: -80px;
+    margin-top: -100px;
+    margin-left: -85px;
     text-align: center;
-    width:110px;
-    height: 95px;
-    background-color:#7B1E05;
-
+    width:75px;
+    height: 65px;
+    
 }
 
 button.SnareDrum
 {
-    margin-top: 40px;
-    margin-left: -50px;
+    margin-top: -40px;
+    margin-left: -65px;
     width:70px;
     height: 70px;
     width:110px;
-    height: 50px;
-    background-color:#7B1E05;
-
+    height: 45px;
+    
 }
 button.CrashCymbal
 {
@@ -107,7 +109,6 @@ button.CrashCymbal
     text-align: center;
     width:150px;
     height: 40px;
-    background-color: #F1E056;
     border-radius: 50%;
     transform: rotate(-5deg);
 
@@ -121,7 +122,6 @@ button.HiHat
     text-align: center;
     width:100px;
     height: 30px;
-    background-color: #F1E056;
     border-radius: 50%;
     transform: rotate(-8deg);
 }
@@ -149,8 +149,8 @@ button.HiHat
     vertical-align: middle;
     margin-top: 250px;
     position: absolute;
-    z-index: 900;
-    margin-left: -300px;
+    z-index: -900;
+    margin-left:0px;
     width: 750px;
     height: 500px;
     width: 40%;
@@ -166,7 +166,7 @@ button.HiHat
     width: 130px;
     margin-top: 220px;
     left: 515px;
-    z-index: 1000;
+    z-index: 800;
    
 }
 
@@ -176,7 +176,7 @@ button.HiHat
     width: 155px;
     margin-top: 220px;
     left: 860px;
-    z-index: 1000;
+    z-index: 900;
    
 }
 
@@ -186,7 +186,7 @@ button.HiHat
     width: 155px;
     margin-top: 270px;
     left: 950px;
-    z-index: 1000;
+    z-index: 900;
    
 }
 
@@ -197,7 +197,7 @@ button.HiHat
     width: 100%;
     top: 0px;
     left:0px;
-   
+    z-index: -1000;
 }
 
 
