@@ -2,40 +2,22 @@
 
 
 body
-
 {
-
-  
+        
         text-align: center;
-
         line-height: 100vh;
-
         margin:0;
-
-
 
 }
 
 
-
-
-
 button
-
 {
-
-
    
-
     font-family: cursive;
-
     font-weight: bold;
-
     vertical-align: middle;
-
     color:black;
-
-
     z-index: 1010px;
     border: transparent;
     background-color: transparent;
@@ -45,62 +27,35 @@ button
 
 
 /*button.RideCymbal
-
 {
-
     
-
     margin-top: -340px;
-
     margin-left: -50px;
-
     margin-right: -3%;
-
     text-align: center;
-
     width:170px;
-
     height: 45px;
-
     border-radius: 50%;
-
     transform: rotate(7deg);
 
-
-
 }
-
-
 */
 
-
-
-
 button.FloorTom
-
 {
-
     margin-right: -50px;
     margin-top: 10px;
-
     text-align: center;
-
     width:110px;
-
     height: 80px;
     margin-left: 8px;
 
-
 }
 
 
-
 button.MidTom
-
 {
-
     
-
     margin-top: -100px;
     text-align: center;
     width:80px;
@@ -108,39 +63,27 @@ button.MidTom
     
     margin-right: -40px;
     margin-left: 10px;
-
 }
 
 
-
-
-
 button.BassDrum
-
 {
-
     
     margin-top: 205px;
     margin-left: -45px;
     text-align: center;
     width:180px;
     height: 198px;
-
     border-radius: 50%;
-
     color:white;
+    
 
-  
 }
 
 
-
 button.HighTom
-
 {
-
     
-
     margin-top: -100px;
     margin-left: -85px;
     text-align: center;
@@ -150,210 +93,122 @@ button.HighTom
 }
 
 
-
 button.SnareDrum
-
 {
-
     margin-top: -40px;
     margin-left: -65px;
-
     width:70px;
-
     height: 70px;
-
     width:110px;
-
     height: 45px;
     
 }
 
 
 /*button.CrashCymbal
-
 {
-
     
-
     margin-top: -400px;
-
     margin-left: -68px;
-
     text-align: center;
-
     width:150px;
-
     height: 40px;
-
     border-radius: 50%;
-
     transform: rotate(-5deg);
-
-
 
 }
 
-
-
 button.HiHat
-
 {
-
     
-
     margin-top: -190px;
-
     margin-left: -60px;
-
     text-align: center;
-
     width:100px;
-
     height: 30px;
-
     border-radius: 50%;
-
     transform: rotate(-8deg);
-
 }*/
 
 
 
 
 /* .imagebutton { 
-
 	display: inline-block;
-
 	width: auto;
-
 	height: auto;
-
 	background: transparent url("../imagenes/platos1.png") no-repeat 0 0;
-
 	
 
-
-
 }
-
-
 
 .imagebutton:hover {
-
 	background-position: auto;
-
 }
-
 */
-
 
 
 
 #bateria
 {
     vertical-align: middle;
-
     margin-top: 250px;
-
     position: absolute;
-
     z-index: -900;
-  
     margin-left:-140px;
-
     width: 750px;
-
     height: 500px;
-
     width: 40%;
-
     height: 50%;
-
 	
-
 }
-
 
 
 
 .img
 {
-
     vertical-align: middle;
-
     position: absolute;
-
     width: 130px;
-
     margin-top: 220px;
-
     left: 515px;
-
     z-index: 800;
-
    
-
 }
-
 
 
 .img1
 {
-
     vertical-align: middle;
-
     position: absolute;
-
     width: 155px;
-
     margin-top: 220px;
-
     left: 860px;
-
     z-index: 900;
-
    
-
 }
-
 
 
 .img2 
 {
-
     vertical-align: middle;
-
     position: absolute;
-
     width: 155px;
-
     margin-top: 270px;
-
     left: 950px;
-
     z-index: 900;
-
    
-
 }
-
 
 
 #fondo 
 {
-
     vertical-align: middle;
-
     position: absolute;
-
     height:100%;
-
     width: 100%;
-
     top: 0px;
-
     left:0px;
-
     z-index: -1000;
 }
 
@@ -394,5 +249,4 @@ button.HiHat
     margin-top: -805px;
     left: 67%;
     font-weight: bold;
-
 }
