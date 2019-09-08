@@ -1,42 +1,81 @@
 <!DOCTYPE html>
 
+
+
 <html lang="es">
+
     <head>
+
             
+
         <title>
+
             basic html 
+
         </title>
+
         <meta  charset="utf-8">
+
         <link rel="stylesheet" href="style.css">
-        
 
         
+
+
+
+        
+
     </head>
 
 
+
+
+
     <body>
+
         
+
         <div class="first_div"> </div>
 
-      
+
+
+
+
         <img data-note="RideCymbal" data-key="R" class="img" src="images/Platillo1.PNG" onmouseover="this.src='images/Platillo1.1.PNG'"
+
         onmouseout="this.src='images/Platillo1.PNG'" /> 
 
 
+
+
+
         <img data-note="CrashCymbal" data-key="U" class="img1" src="images/Platillo2.PNG" onmouseover="this.src='images/Platillo1.2.PNG'"
+
         onmouseout="this.src='images/Platillo2.PNG'" />
 
 
+
+
+
         <img data-note="HiHat" data-key="J" class="img2" src="images/Platillo1.3.PNG" onmouseover="this.src='images/Platillo3.PNG'"
+
         onmouseout="this.src='images/Platillo1.3.PNG'" />
+
+
+
 
 
         <img id="bateria" src="images/bateria.PNG" width="1300">
 
+
+
         <img id="fondo" src="images/Fondo.jpg" width="1300">
+
     
 
+
+
        
+
    
         
        <!--
@@ -76,6 +115,93 @@
         <script type="text/javascript" src="app.js">
         </script>
 
+        
+
+       <!--
+
+           ya no ocupamos esto
+
+        <button data-key="R" data-note=""class="RideCymbal"></button>
+
+       -->
+
+
+
+        <!--Botones de la bateria-->
+
+        <button data-key="F" data-note="FloorTom"class="FloorTom">F</button>
+
+        <button data-key="T" data-note="MidTom"class="MidTom">T</button>   
+
+        <button data-key="G" data-note="BassDrum" class="BassDrum">G</button>
+
+        <button data-key="Y" data-note="HighTom" class="HighTom">Y</button>
+
+        <button data-key="H" data-note="SnareDrum" class="SnareDrum">H</button>
+
+        
+
+        <!--
+
+            ya no ocupamos esto
+
+        <button data-key="U" data-note=""class="CrashCymbal"></button>
+
+        <button data-key="J" data-note=""class="HiHat"></button>
+
+        -->
+
+
+
+
+
+
+
+        <!--AudiosBateria-->
+
+        <audio id="audioBassDrum" src="audio/BassDrum.mp3"></audio>
+
+        <audio id="audioSnareDrum" src="audio/SnareDrum.mp3"></audio>
+
+        <audio id="audioFloorTom" src="audio/FloorTom.mp3"></audio>
+
+        <audio id="audioHighTom" src="audio/HighTom.mp3"></audio>
+
+        <audio id="audioMidTom" src="audio/MidTom.mp3"></audio>
+
+
+
+        <!--AudiosPlatillos-->
+
+        <audio id="audioHiHat" src="audio/HiHat.mp3"></audio>
+
+        <audio id="audioCrashCymbal" src="audio/CrashCymbal.mp3"></audio>
+
+        <audio id="audioRideCymbal" src="audio/RideCymbal.mp3"></audio>
+
+
+
+
+
+        
+
+        <script type="text/javascript" src="app.js">
+
+        </script>
+
+
+
+
+
+        <!--Letras de los platillos-->
+
+        <p id="p1"> R</p> 
+
+        <p id="p2"> U</p> 
+
+        <p id="p3"> J</p> 
+
+
 
         <!--Letras de los platillos-->
         <p id="p1"> R</p> 
@@ -84,5 +210,7 @@
 
 
     
+
     </body>
+
 </html>
