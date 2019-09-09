@@ -7,7 +7,6 @@ body
         line-height: 100vh;
         margin:0;
        
-
 }
 
 
@@ -232,6 +231,7 @@ button.HiHat
     font-weight: bold;
     margin-left: 30px;
 }
+
 #p2
 {
     font-family: cursive;
@@ -244,6 +244,7 @@ button.HiHat
     left: 60.4%;
     font-weight: bold;
 }
+
 #p3
 {
     font-family: cursive;
