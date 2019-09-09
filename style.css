@@ -14,10 +14,10 @@ body
 button
 {
    
-    font-family: cursive;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-weight: bold;
     vertical-align: middle;
-    color:black;
+    color: #00BDFF;
     z-index: 1010px;
     border: transparent;
     background-color: transparent;
