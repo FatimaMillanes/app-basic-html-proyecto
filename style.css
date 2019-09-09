@@ -7,6 +7,7 @@ body
         text-align: center;
         line-height: 100vh;
         margin:0;
+       
 
 }
 
@@ -14,12 +15,12 @@ body
 button
 {
    
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: cursive;
     font-weight: bold;
     vertical-align: middle;
     color: #00BDFF;
     z-index: 1010px;
-    border: transparent;
+    border:transparent;
     background-color: transparent;
     
     
@@ -43,12 +44,12 @@ button
 
 button.FloorTom
 {
-    margin-right: -50px;
-    margin-top: 10px;
+    margin-right: -70px;
+    margin-top: 80px;
     text-align: center;
     width:110px;
     height: 80px;
-    margin-left: 8px;
+    margin-left: -100px;
 
 }
 
@@ -61,21 +62,20 @@ button.FloorTom
 button.MidTom
 {
     
-    margin-top: -100px;
+    margin-top: -15px;
     text-align: center;
     width:80px;
     height: 80px;
-    
-    margin-right: -40px;
-    margin-left: 10px;
+    margin-right: -70px;
+    margin-left: 20px;
 }
 
 
 button.BassDrum
 {
     
-    margin-top: 205px;
-    margin-left: -45px;
+    margin-top: 280px;
+    margin-left: -20px;
     text-align: center;
     width:180px;
     height: 198px;
@@ -89,7 +89,7 @@ button.BassDrum
 button.HighTom
 {
     
-    margin-top: -100px;
+    margin-top: -30px;
     margin-left: -85px;
     text-align: center;
     width:75px;
@@ -100,7 +100,8 @@ button.HighTom
 
 button.SnareDrum
 {
-    margin-top: -40px;
+    
+    margin-top: 40px;
     margin-left: -65px;
     width:70px;
     height: 70px;
@@ -157,10 +158,10 @@ button.HiHat
 #bateria
 {
     vertical-align: middle;
-    margin-top: 250px;
+    margin-top: 300px;
     position: absolute;
     z-index: -900;
-    margin-left:-140px;
+    margin-left:-240px;
     width: 750px;
     height: 500px;
     width: 40%;
@@ -175,8 +176,8 @@ button.HiHat
     vertical-align: middle;
     position: absolute;
     width: 130px;
-    margin-top: 210px;
-    left: 470px;
+    margin-top: 270px;
+    left: 510px;
     z-index: 800;
    
 }
@@ -187,8 +188,8 @@ button.HiHat
     vertical-align: middle;
     position: absolute;
     width: 155px;
-    margin-top: 220px;
-    left: 750px;
+    margin-top: 270px;
+    left: 800px;
     z-index: 900;
    
 }
@@ -199,8 +200,8 @@ button.HiHat
     vertical-align: middle;
     position: absolute;
     width: 155px;
-    margin-top: 270px;
-    left: 825px;
+    margin-top: 320px;
+    left: 870px;
     z-index: 900;
    
 }
@@ -229,7 +230,7 @@ button.HiHat
     margin-top: -878px;
     left: 37%;
     font-weight: bold;
-    margin-left: 10px;
+    margin-left: 30px;
 }
 #p2
 {
@@ -240,7 +241,7 @@ button.HiHat
     color: black;
     height: 10px;
     margin-top: -860px;
-    left: 61%;
+    left: 60.4%;
     font-weight: bold;
 }
 #p3
@@ -252,23 +253,9 @@ button.HiHat
     color: black;
     height: 10px;
     margin-top: -805px;
-    left: 67%;
+    left: 66%;
     font-weight: bold;
 }
 
 
 
-
-.efectos{position:relative;}
-.efectos .destello{position:absolute;}
-.efectos .destello-01{right: 240px; top: 145px; animation: destello-efecto-01 5s infinite; -webkit-animation: destello-efecto-01 5s infinite;}
-.efectos .destello-02{right: 360px; top: 80px; animation: destello-efecto-01 5s infinite; -webkit-animation: destello-efecto-01 2s infinite;}
-@-webkit-keyframes destello-efecto-01 {
-  0%, 50%, 100% {opacity: 1;}
-  25%, 75% {opacity: 0.6;transform: scale3d(.3, .3, .3);-webkit-transform: scale3d(.3, .3, .3);}
-}
-
-@keyframes destello-efecto-01 {
-  0%, 50%, 100% {opacity: 1;}
-  25%, 75% {opacity: 0.6;-webkit-transform: scale3d(.3, .3, .3);transform: scale3d(.3, .3, .3);}
-}
