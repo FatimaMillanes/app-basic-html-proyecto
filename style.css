@@ -52,6 +52,11 @@ button.FloorTom
 
 }
 
+.positiondrums{
+    margin-top: -30%;
+    margin-left: 5%;    
+}
+
 
 button.MidTom
 {
@@ -170,8 +175,8 @@ button.HiHat
     vertical-align: middle;
     position: absolute;
     width: 130px;
-    margin-top: 220px;
-    left: 515px;
+    margin-top: 200px;
+    left: 415px;
     z-index: 800;
    
 }
@@ -183,7 +188,7 @@ button.HiHat
     position: absolute;
     width: 155px;
     margin-top: 220px;
-    left: 860px;
+    left: 700px;
     z-index: 900;
    
 }
@@ -195,7 +200,7 @@ button.HiHat
     position: absolute;
     width: 155px;
     margin-top: 270px;
-    left: 950px;
+    left: 768px;
     z-index: 900;
    
 }
